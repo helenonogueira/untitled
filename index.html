@@ -2,26 +2,54 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Formulario HTML</title>
+    <title>Formulário HTML</title>
 </head>
 <body>
- <form autocomplete="on" action="" method="get">
-    <h1>NOME:</h1>
-    <input type="text" name="Nome" id="Nome" placeholder="Aqui é o nome" required/>
 
-    <h1>SOBRENOME:</h1>
-    <input type="text" name="Nome" id="Nome" placeholder="Aqui é o sobrenome" required maxlength="10">
+    CADASTRO
+    <form autocomplete="on" action="pagina2.html" method="get">
+        Nome:
+        <input type="text" name="nome" id="nome" placeholder="Aqui é o nome!" required> 
+        <br>
+        <br>
+        Sobrenome:
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" maxlength="10">
+        <br>
+        <br>
+        E-mail:
+        <input type="email" name="email" id="email">
+        <br>
+        URL:
+        <input type="url" name="url" id="url">
+        <br>
+        <br>
+        Número:
+        <input type="number" name="number" id="number">
+        <br>
+        <br>
+        Data e hora:
+        <input type="datetime-local" name="datatempo" id="data"> <br>
+        <br><br>
+        RADIOBUTTON: <br>
+        <input type="radio" name="videogame"/> Atari <br>
+        <input type="Radio" name="Videogame"/> Super Nitendo <br>
+        <input type="Radio" name="Videogame"/> Playstation <br>
+       <br><br> 
+        Checkbox: <br>
+        <input type="checkbox" name="videogame" checked/> Atari <br>
+        <input type="checkbox" name="Videogame"/> Super Nitendo <br>
+        <input type="checkbox" name="Videogame"/> Playstation <br>
+        <br><br>
+        RADIOBUTTON2: <br>
+        <input type="radio" name="videogame1"/> Atari2 <br>
+        <input type="Radio" name="Videogame1"/> Super Nitendo2 <br>
+        <input type="Radio" name="Videogame1"/> Playstation2 <br>
 
-    <h1>E-mail:</h1>
-    <input type="email" name="email" id="email" placeholder="seu email" required/>
-
-    <h1>URL:</h1>
-    <input type="url" name="url" id="url" placeholder="seu link"required/>
-
-
- </form>   
-
-
-
+        <br>
+        <br>
+        <input type="submit" value="ENVIAR!">
+        
+    </form>
+    
 </body>
 </html>
